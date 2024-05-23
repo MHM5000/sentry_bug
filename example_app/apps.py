@@ -2,7 +2,6 @@ from datetime import datetime
 
 import django_rq
 from django.apps import AppConfig
-from rq.exceptions import NoSuchJobError
 from rq.job import Job
 
 from example_app.defaults import JOB_ID
